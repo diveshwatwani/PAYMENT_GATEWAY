@@ -13,3 +13,18 @@ body
     margin-right: 100px;
 
 }
+.navbar
+{
+    background-color: black;
+    color: #E7D1DD;
+    font-size: 1.3rem;
+}
+
+.btn-design
+{
+    margin-top: 10%;
+    margin-right:3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-weight: bolder;
+}
