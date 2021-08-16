@@ -1,0 +1,15 @@
+body
+{
+    /* background: #59B1BD url("/imgs/Two.jpg") fixed;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size:auto; */
+    /* background-image: url('imgs/one.jpg'); */
+    background-color: #E7D1DD;
+}
+.container
+{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
