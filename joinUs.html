@@ -7,6 +7,7 @@
    
    
    <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/a70249e646.js" crossorigin="anonymous"></script>
    <!-- Google Fonts -->
 
    <!-- Bootstrap CSS -->
@@ -19,7 +20,7 @@
 
  
    <!-- External Css for my site -->
-   <link rel="stylesheet" href="donatePage.css">
+   <link rel="stylesheet" href="/css/donatePage.css">
     <title>Join Us</title>
 </head>
 <body>
@@ -31,13 +32,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item ">
                   <a class="nav-link" href="/index.html">Home </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/donatePage.html">Donate</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="/joinUs.html">Join Us <span class="sr-only">(current)</span></a>
                 </li>
               </ul>
@@ -49,29 +50,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img style="padding-top: 85px; padding-right: 75px;" class="mt-5 " src="imgs/joinUs.png" alt="donateFormImg">
-                </div>
-                <div class="col-lg-6">
-                          <div class="container-joinus" >
+                    <div class="container-joinus" >
                         <center>
                             <form  action="" method="post" style="padding: 25px;">
                                 <h2 class="text-center">Join Us Form</h2>
                               <div class="row" >
-                                  <label for="fname"> Full Name: </label>
+                                  <label for="fname"><i class="fas fa-lg fa-user"></i> Full Name: </label>
                                   <input type="text" id="fname" name="name" placeholder="Sam henry">
 
-                                  <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
+                                  <label for="email"><i class="fa fa-lg fa-envelope"></i> E-mail</label>
                                   <input type="text" id="email" name="email" placeholder="sam@email.com">
                             
-                                  <label for="city"><i class="fa fa-mobile"></i> Message</label>
+                                  <label for="city"><i class="fa fa-lg fa-mobile"></i> Message</label>
                                   <input type="text" id="city" name="mobile" placeholder="Enter Meassge..." >
                               </div>
-                              <button type="button" class="btn btn-dark">Join us</button>
+                              <button type="button" onclick="fun()" class="btn btn-dark">Join us</button>
                             </form>
                         </center>
+                        </div>
                 </div>
-            </div>
+                <div class="col-lg-6">
+                    <img style="padding-top: 85px; padding-right: 75px;" class="mt-5 " src="imgs/joinUs.png" alt="donateFormImg">
+                </div>
         </div>
     </section>
+    <script>
+        function fun()
+        {
+            alert("Your Details Have been Saved..!");
+        }
+    </script>
 </body>
 </html>

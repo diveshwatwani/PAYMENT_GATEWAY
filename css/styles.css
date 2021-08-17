@@ -2,6 +2,17 @@ body
 {
     background-color: #E7D1DD;
 }
+body p
+{
+    font-size: 1.5rem;
+}
+
+body h2
+{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
 .container
 {
     margin-left: 100px;
@@ -12,7 +23,7 @@ body
 {
     background-color: black;
     color: #E7D1DD;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .navbar-brand
 {
@@ -26,4 +37,5 @@ body
     padding-right: 3%;
     padding-left: 3%;
     font-weight: bolder;
+    font-size: 1.3rem;
 }
