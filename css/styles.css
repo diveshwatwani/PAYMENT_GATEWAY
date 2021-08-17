@@ -1,10 +1,5 @@
 body
 {
-    /* background: #59B1BD url("/imgs/Two.jpg") fixed;
-    background-position:left;
-    background-repeat: no-repeat;
-    background-size:auto; */
-    /* background-image: url('imgs/one.jpg'); */
     background-color: #E7D1DD;
 }
 .container
@@ -18,6 +13,10 @@ body
     background-color: black;
     color: #E7D1DD;
     font-size: 1.3rem;
+}
+.navbar-brand
+{
+    font-size: 1.5rem;
 }
 
 .btn-design
