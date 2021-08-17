@@ -140,3 +140,10 @@ footer
     background-color: white;
     color: black;
 }
+@media (max-width: 800px) {
+.img 
+{
+  width: 350px;
+  height: 220px;
+}  
+}
