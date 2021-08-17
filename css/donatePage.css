@@ -114,7 +114,23 @@ body {
   {
     font-size: 1.3rem;
   }
+  .navbar-brand
+  {
+      font-size: 1.8rem;
+  }
 
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  .navbar-brand:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+  .nav-link:hover {
+    transform: scale(1.1);
+  }
   .container-joinus
   {
     background-color: #FFE8EE;
@@ -124,3 +140,17 @@ body {
     margin-top: 35px;
     margin-left: 70px;
   }
+
+  .footer-icon
+{
+    color: black;
+}
+.footer-icon:hover{
+    color: grey;
+          
+}
+footer
+{
+    background-color: white;
+    color: black;
+}

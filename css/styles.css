@@ -27,9 +27,19 @@ body h2
 }
 .navbar-brand
 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
+.navbar-brand:hover {
+    transform: scale(1.1);
+  }
+.nav-link:hover {
+    transform: scale(1.1);
+  }
+
+.btn:hover {
+    transform: scale(1.1);
+  }
 .btn-design
 {
     margin-top: 10%;
@@ -38,4 +48,17 @@ body h2
     padding-left: 3%;
     font-weight: bolder;
     font-size: 1.3rem;
+}
+.footer-icon
+{
+    color: white;
+}
+.footer-icon:hover{
+    color: grey;
+          
+}
+footer
+{
+    background-color: black;
+    color: white;
 }
