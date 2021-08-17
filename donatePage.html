@@ -30,32 +30,21 @@
                     <img style="padding-top: 85px; padding-right: 75px;" class="mt-5 " src="imgs/donatePage.jpg" alt="donateFormImg">
                 </div>
                 <div class="col-lg-6">
-                    
-                        
                           <div class="container-ds" >
-                            <form  action="index.php" method="post" style="padding: 25px;">
-                            
+                            <form  action="" method="post" style="padding: 25px;">
+                                <h2 class="text-center">Donate 💰</h2>
                               <div class="row" >
-                                  <h2 class="text-center">Checkout Form</h2>
-                                  <!-- <h3 style="text-align: center;font-family: lato;">Checkout Form</h3> -->
-                                
-                                  <label for="fname"> Full Name</label>
-                                  <input type="text" id="fname" name="name" placeholder="John M. Doe">
-                                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                                  <input type="text" id="email" name="email" placeholder="john@example.com">
-                                  <input type="hidden" value="<?php echo 'OID'.rand(100,1000);?>" name="orderid">
-                                  <input type="hidden" value="<?php echo 1;?>" name="amount">
-                                  <label for="city"><i class="fa fa-mobile"></i> Mobile</label>
-                                  <input type="text" id="city" name="mobile" placeholder="Mobile Number">
-                                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                                  <label for="fname"> Company Name: </label>
+                                  <input style="color: #133B77;font-weight: bolder;" type="text" id="fname" name="name"  value="The Sparks Foundation" disabled>
+
+                                  <label for="email"><i class="fa fa-envelope"></i> Task #3</label>
+                                  <input style="color: #133B77;font-weight: bolder;" type="text" id="email" name="email" value="Payment Gateway Integration" disabled>
+                            
+                                  <label for="city"><i class="fa fa-mobile"></i> Develpoed By:</label>
+                                  <input style="color: #133B77;font-weight: bolder;" type="text" id="city" name="mobile" value="Divesh Watwani" disabled>
                               </div>
                               <input type="submit"  value="Pay Now" class="btn">
-                              <!-- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HmDgAEI2VDOfAo" async> </script> </form> -->
                             </form>
-                       
-                       
-                      
                 </div>
             </div>
         </div>

@@ -103,3 +103,8 @@ body {
       margin-bottom: 20px;
     } 
   }
+
+  .text-in-form
+  {
+    color: #133B77;font-weight: bolder;
+  }
